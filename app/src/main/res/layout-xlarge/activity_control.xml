@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.HuaweiMWC.ControlActivity"
+    android:id="@+id/fl"
+    >
+    <!--Mate10、pro、保时捷 Hall 1-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:visibility="gone"
+        android:background="@mipmap/mate10ui_6">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="452px"
+            android:layout_height="169px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="162px"
+            android:layout_marginTop="130px"
+            android:background="@mipmap/mate10ui_5"/>
+
+        <ImageView
+            android:id="@+id/title1"
+            android:layout_width="152px"
+            android:layout_height="169px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="130px"
+            android:background="@mipmap/mate10ui_7"/>
+
+        <Button
+            android:id="@+id/recognizeBtn"
+            android:layout_width="323px"
+            android:layout_height="513px"
+            android:layout_marginLeft="100px"
+            android:layout_marginBottom="110px"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10ui_1"/>
+
+        <Button
+            android:id="@+id/fastBtn"
+            android:layout_width="323px"
+            android:layout_height="513px"
+            android:layout_marginLeft="530px"
+            android:layout_marginBottom="110px"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10ui_2"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="323px"
+            android:layout_height="513px"
+            android:layout_marginRight="530px"
+            android:layout_marginBottom="110px"
+            android:layout_gravity="bottom|right"
+            android:background="@mipmap/mate10ui_3"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="323px"
+            android:layout_height="513px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="110px"
+            android:layout_gravity="bottom|right"
+            android:background="@mipmap/mate10ui_4"/>
+
+    </FrameLayout>
+    <!--Mate10 Lite Hall 1、3-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/fullScreenBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="全屏"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="四摄"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--Nova2、2P-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/shootBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="自拍"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="趣味自拍"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--HONOR 9lite、V10、X7-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="TVC"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--Watch2-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="独立通话"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="TVC"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recognizeF"
+        android:visibility="gone"
+        android:background="#fff">
+        <ImageView
+            android:id="@+id/recognizeImg1"
+            android:layout_width="683px"
+            android:layout_height="193px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="650px"
+            android:layout_marginTop="50px"
+            android:background="@mipmap/mate10recognize_1" />
+
+        <FrameLayout
+            android:layout_width="6350px"
+            android:layout_height="530px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="-1790px"
+            android:layout_marginTop="405px"
+            android:id="@+id/recognizeM"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/recognizeImg5"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_3" />
+
+            <ImageView
+                android:id="@+id/recognizeImg6"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="800px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_4" />
+            <ImageView
+                android:id="@+id/recognizeImg7"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="1600px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_1" />
+            <ImageView
+                android:id="@+id/recognizeImg8"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="2400px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_2" />
+            <ImageView
+                android:id="@+id/recognizeImg9"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="3200px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_3" />
+
+            <ImageView
+                android:id="@+id/recognizeImg10"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="4000px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_4" />
+
+            <ImageView
+                android:id="@+id/recognizeImg11"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="4800px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_1" />
+
+            <ImageView
+                android:id="@+id/recognizeImg12"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="5600px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_2" />
+
+            <ImageView
+                android:id="@+id/recognizeImg13"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_marginLeft="6400px"
+                android:layout_marginTop="65px"
+                android:background="@mipmap/mate10recognizeimg_3" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/recognizeImg2"
+            android:layout_width="320px"
+            android:layout_height="620px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="820px"
+            android:layout_marginTop="415px"
+            android:background="@mipmap/mate10recognize_2" />
+
+        <ImageView
+            android:id="@+id/recognizeImg3"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="680px"
+            android:layout_marginTop="650px"
+            android:background="@mipmap/mate10recognize_3" />
+
+        <ImageView
+            android:id="@+id/recognizeImg4"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="620px"
+            android:layout_marginTop="650px"
+            android:background="@mipmap/mate10recognize_4" />
+
+        <Button
+            android:id="@+id/recognizeEBtn"
+            android:layout_width="299px"
+            android:layout_height="80px"
+            android:layout_marginLeft="840px"
+            android:layout_marginBottom="10px"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10recognize_7"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fastF"
+        android:visibility="gone"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/tab1"
+            android:layout_width="617px"
+            android:layout_height="98px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="80px"
+            android:background="@mipmap/tab1_h" />
+
+        <Button
+            android:id="@+id/tab2"
+            android:layout_width="617px"
+            android:layout_height="98px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="200px"
+            android:layout_marginTop="80px"
+            android:background="@mipmap/tab2" />
+
+        <ImageView
+            android:id="@+id/ivGif1"
+            android:layout_width="383px"
+            android:layout_height="348px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="310px"
+            android:layout_marginTop="330px"/>
+
+        <ImageView
+            android:id="@+id/ivGif2"
+            android:layout_width="388px"
+            android:layout_height="875px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="319px"
+            android:layout_marginTop="294px"/>
+
+        <ImageView
+            android:id="@+id/ivGif3"
+            android:layout_width="426px"
+            android:layout_height="884px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="330px"/>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="827px"
+            android:layout_height="235px"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="100px"
+            android:background="@mipmap/tab1_1"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="561px"
+            android:layout_height="439px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="290px"
+            android:layout_marginTop="350px"
+            android:background="@mipmap/tab1_2"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="927px"
+            android:layout_height="200px"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="100px"
+            android:background="@mipmap/tab1_3"/>
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="426px"
+            android:layout_height="924px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="75px"
+            android:layout_marginTop="310px"
+            android:background="@mipmap/btnt"/>
+
+        <ImageView
+            android:id="@+id/ivGif4"
+            android:layout_width="426px"
+            android:layout_height="884px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="330px"/>
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="970px"
+            android:layout_height="368px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="90px"
+            android:layout_marginTop="350px"
+            android:background="@mipmap/tab2_1"/>
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="930px"
+            android:layout_marginTop="770px"
+            android:background="@mipmap/tab2_3"/>
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="1005px"
+            android:layout_height="136px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="90px"
+            android:layout_marginTop="950px"
+            android:background="@mipmap/tab2_2"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullScreenF"
+        android:visibility="gone"
+        android:background="#444">
+
+        <Button
+            android:id="@+id/fullScreenFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+        <Button
+            android:id="@+id/game"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="找不同"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selectF"
+        android:visibility="gone"
+        android:background="#772">
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shootF"
+        android:visibility="gone"
+        android:background="#444">
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/callF"
+        android:visibility="gone"
+        android:background="#444">
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoF"
+        android:visibility="gone"
+        android:background="#555">
+        <SurfaceView
+            android:id="@+id/sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dressUpF"
+        android:visibility="gone"
+        android:background="@mipmap/mate10ui_6">
+
+        <ImageView
+            android:id="@+id/title2"
+            android:layout_width="452px"
+            android:layout_height="169px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="162px"
+            android:layout_marginTop="130px"
+            android:background="@mipmap/mate10ui_5"/>
+
+        <ImageView
+            android:id="@+id/title3"
+            android:layout_width="152px"
+            android:layout_height="169px"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="130px"
+            android:background="@mipmap/mate10ui_7"/>
+
+        <ImageView
+            android:id="@+id/dressUpIBtn"
+            android:layout_width="463px"
+            android:layout_height="589px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="760px"
+            android:layout_marginTop="300px"
+            android:background="@mipmap/mate10color_1"/>
+
+        <Button
+            android:id="@+id/color1"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="540px"
+            android:layout_marginBottom="50px"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10color1"/>
+
+        <Button
+            android:id="@+id/color2"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="735px"
+            android:layout_marginBottom="50px"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10color2"/>
+
+        <Button
+            android:id="@+id/color3"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginRight="735px"
+            android:layout_marginBottom="50px"
+            android:layout_gravity="bottom|right"
+            android:background="@mipmap/mate10color3"/>
+
+        <Button
+            android:id="@+id/color4"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginRight="540px"
+            android:layout_marginBottom="50px"
+            android:layout_gravity="bottom|right"
+            android:background="@mipmap/mate10color4"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nameplateF"
+        android:visibility="gone"
+        android:background="#fff">
+
+        <!--50px-->
+        <ImageView
+            android:id="@+id/bj1"
+            android:layout_width="994px"
+            android:layout_height="187px"
+            android:layout_gravity="top"
+            android:layout_marginLeft="465px"
+            android:layout_marginTop="160px"
+            android:background="@mipmap/mate10_3"/>
+
+        <ImageView
+            android:id="@+id/bj3"
+            android:layout_width="672px"
+            android:layout_height="222px"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="150px"
+            android:layout_marginBottom="450px"
+            android:background="@mipmap/mate10_2"/>
+
+        <ImageView
+            android:id="@+id/bj2"
+            android:layout_width="719px"
+            android:layout_height="552px"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="160px"
+            android:layout_marginBottom="120px"
+            android:background="@mipmap/mate10_1"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bjBtn"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:visibility="gone"
+        android:layout_gravity="bottom|left"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:visibility="gone"
+        android:layout_gravity="bottom|right"
+        android:background="@mipmap/back"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/welcomeF"
+        android:visibility="gone"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="550px"
+            android:textSize="100px"
+            android:text="Welcome to your Huawei Mate 10!"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/endF"
+        android:visibility="gone"
+        android:background="#fff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="550px"
+            android:textSize="100px"
+            android:text="Thank You For Your Experience!"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/testF"
+        android:visibility="gone"
+        android:background="#fff">
+        <TextView
+            android:id="@+id/serialPortTxt"
+            android:layout_width="1700px"
+            android:layout_height="800px"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="100px"
+            android:textSize="80px"
+            android:scrollbars="vertical"/>
+
+    </FrameLayout>
+
+</FrameLayout>

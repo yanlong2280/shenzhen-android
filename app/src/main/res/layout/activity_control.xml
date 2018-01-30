@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.HuaweiMWC.ControlActivity"
+    android:id="@+id/fl"
+    >
+    <!--Mate10、pro、保时捷 Hall 1-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/recognizeBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="慧眼识物"/>
+
+        <Button
+            android:id="@+id/fastBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="快充"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="随行翻译"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="1200px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    <!--Mate10 Lite Hall 1、3-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/fullScreenBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="全屏"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="四摄"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--Nova2、2P-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/shootBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="自拍"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="趣味自拍"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--HONOR 9lite、V10、X7-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="TVC"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <!--Watch2-->
+    <!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/controllerF"
+        android:background="#fff">
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="独立通话"/>
+
+        <Button
+            android:id="@+id/videoBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="TVC"/>
+
+        <Button
+            android:id="@+id/dressUpBtn"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="800px"
+            android:text="ID换装"/>
+
+    </FrameLayout>
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recognizeF"
+        android:background="#444">
+        <Button
+            android:id="@+id/recognizeFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fastF"
+        android:background="#772">
+        <Button
+            android:id="@+id/fastFBack"
+            android:layout_width="300px"
+            android:layout_height="600px"
+            android:text="返回"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullScreenF"
+        android:background="#444">
+
+        <Button
+            android:id="@+id/fullScreenFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+        <Button
+            android:id="@+id/game"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginLeft="400px"
+            android:text="找不同"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selectF"
+        android:background="#772">
+        <Button
+            android:id="@+id/selectFBack"
+            android:layout_width="300px"
+            android:layout_height="600px"
+            android:text="返回"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shootF"
+        android:background="#444">
+
+        <Button
+            android:id="@+id/shootFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/callF"
+        android:background="#444">
+
+        <Button
+            android:id="@+id/callFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoF"
+        android:background="#555">
+        <SurfaceView
+            android:id="@+id/sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dressUpF"
+        android:background="#666">
+        <Button
+            android:id="@+id/dressUpFBack"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:text="返回"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nameplateF"
+        android:background="@mipmap/mate10">
+
+        <ImageView
+            android:id="@+id/bj1"
+            android:layout_width="994px"
+            android:layout_height="187px"
+            android:layout_gravity="top"
+            android:layout_marginLeft="550px"
+            android:background="@mipmap/mate10_3"/>
+        <ImageView
+            android:id="@+id/bj2"
+            android:layout_width="500dp"
+            android:layout_height="400dp"
+            android:layout_gravity="bottom|left"
+            android:background="@mipmap/mate10_1"/>
+        <ImageView
+            android:id="@+id/bj3"
+            android:layout_width="500dp"
+            android:layout_height="400dp"
+            android:layout_gravity="bottom|right"
+            android:background="@mipmap/mate10_2"/>
+
+        <ImageView
+            android:id="@+id/bjBtn"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|left"
+            android:visibility="invisible"
+            android:background="@mipmap/honor_v10"/>
+    </FrameLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/ivGif"-->
+        <!--android:layout_width="840px"-->
+        <!--android:layout_height="730px"-->
+        <!--android:layout_marginLeft="135px"-->
+        <!--android:layout_marginTop="290px"/>-->
+
+
+</FrameLayout>
